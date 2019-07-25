@@ -1,8 +1,8 @@
 # Java-CIS18A
-creater Abanob Wahba
-Version 3.0
-created June 24, 2019
-Summary and instructions for the program
+creater Abanob Wahba,
+Version 3.0,
+created June 24, 2019,
+Summary and instructions for the program,
 The program is a Beauty Salon and spa Management program. The program will be used in the management level in the beauty salon and spa; that is, only the managers will be the one to operate the program. All the other staff are assumed to be the ones attending to the clients and the manager is the overall head.
 The program will serve various purposes such as keeping records of all the employees both in part time basis and in full time basis. All the employees are paid depending on the hours worked. This brought about inheritance because we had the super-class which is an `Employee` class then the sub-classes which were the `fullTimeEmployee` class and the `partTimeEmployee` class. The program stores these records in `ArrayList` so that later the manager can use the information stored in the program to make decisions that will help to improve the business performance. 
 The program will also allow that manager to add the various services offered in the beauty and define the prices of a given service according to age of the customers. The program splits a service into two i.e. underage clients and the adult’s clients where they will have different prices. When a customer is to be services, his/her age and name is taken then the program itself will decide the category of cost that the client will fall into and save the record for later reference. The programs categorize the client that are below the age of 18 as underage and those that have 18 years and above are categorized as adults. Here in the services we have the implementation of an interface which has the blueprint of how each service should be. It majorly has a method `calculatePrice` which calculates the price of the service.
